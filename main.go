@@ -3,7 +3,7 @@ package main
 func main() {
 	a := App{}
 
-	a.Initialize("db_username", "db_password", "db_name")
+	a.Initialize("root", "", "db_golang")
 
 	a.Run(":8080")
 }
